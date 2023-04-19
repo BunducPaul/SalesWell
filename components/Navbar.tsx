@@ -11,9 +11,11 @@ function NavBar() {
 
   return <AppBar position="static">
     <Toolbar>
-      <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-        SalesWell
-      </Typography>
+      <Link href="/" passHref >
+        <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} style={{ cursor: 'pointer' }}>
+          SalesWell
+        </Typography>
+      </Link>
       { session ? 
         <>
           <Link href="/booking/list">
