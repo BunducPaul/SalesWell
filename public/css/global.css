@@ -2,3 +2,9 @@ html, body {
     margin: 0;
     padding: 0;
 }
+
+a.navHome {
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
